@@ -1,0 +1,109 @@
+{
+  "personal": {
+    "name": "Shubham Singh",
+    "title": "Product Manager",
+    "email": "shubhamsingh842@outlook.com",
+    "location": "Bengaluru, India",
+    "about": "Strategic and data-driven Product Manager with over a decade of cross-functional experience in Product Management, enterprise SaaS, and DevOps. Proven track record of scaling B2B platforms—driving engagement growth, significant annual savings, and conversion rate improvements through A/B testing and data-informed decisions."
+  },
+  "metrics": [
+    {
+      "value": 30,
+      "prefix": "",
+      "suffix": "%",
+      "label": "Engagement Growth"
+    },
+    {
+      "value": 650,
+      "prefix": "$",
+      "suffix": "K+",
+      "label": "Annual Savings"
+    },
+    {
+      "value": 20,
+      "prefix": "",
+      "suffix": "%",
+      "label": "Conversion Rate Lift"
+    },
+    {
+      "value": 250,
+      "prefix": "",
+      "suffix": "K+",
+      "label": "Learners Served"
+    },
+    {
+      "value": 75,
+      "prefix": "",
+      "suffix": "%",
+      "label": "Adoption Increase"
+    },
+    {
+      "value": 99.9,
+      "prefix": "",
+      "suffix": "%",
+      "label": "System Uptime"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "Infosys",
+      "role": "Product Manager (Enterprise SaaS)",
+      "duration": "July 2022 - Present",
+      "description": "Led the end-to-end transformation of a legacy L&D system into a scalable cloud-native platform serving 250,000+ learners.",
+      "achievements": [
+        "Owned end-to-end product lifecycle for a GenAI-powered L&D chatbot serving 250K+ employees; leveraged a locally hosted Llama 3 8B model with RAG and vector search, resulting in a 28% increase in course completion rates.",
+        "Launched a certification platform across 20+ domains, driving 64% YoY certification growth and 32% rise in internal promotions.",
+        "Led A/B testing & product experimentation to optimize user flows and chatbot responses, achieving 20% increase in conversion rates and 38% improvement in user feedback scores.",
+        "Achieved $650K+ in annual cost savings via automation and streamlined content operations."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "company": "Infosys",
+      "role": "Senior Associate Consultant (DevOps)",
+      "duration": "May 2019 - Jan 2021",
+      "description": "Managed DevOps implementations and scaled enterprise application support workflows.",
+      "achievements": [
+        "Scaled automated server space reporting to 50+ servers, achieving 100% reporting coverage and eliminating manual effort entirely (~365 hours/year).",
+        "Designed and maintained Jenkins/GitHub CI/CD pipelines, reducing deployment time by 40% with a 99.5% success rate.",
+        "Implemented New Relic and ELK monitoring, maintaining 99.9% uptime and reducing incident response time by 30%."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "company": "HP Inc.",
+      "role": "Technical Engineer (DevOps & Agile)",
+      "duration": "Jan 2016 - May 2019",
+      "description": "Oversaw DevOps infrastructure, version control, and CI/CD operations for SaaS ecosystems.",
+      "achievements": [
+        "Managed version control and CI/CD workflows for 10+ SaaS applications, achieving 95% on-time delivery.",
+        "Ensured 99.8% uptime for services supporting 1,000+ users through proactive maintenance and monitoring."
+      ]
+    }
+  ],
+  "skills": [
+    "Product Strategy & Roadmapping",
+    "A/B Testing & Experimentation",
+    "Data Analytics & KPI Frameworks",
+    "AI/ML Feature Integration",
+    "Agile / Scrum Delivery",
+    "GTM Strategy",
+    "User Research & Journey Mapping",
+    "API & Cloud Architecture"
+  ],
+  "projects": [
+    {
+      "title": "DocExplain AI",
+      "description": "AI-powered document analysis platform for instant, intelligent insights.",
+      "tags": ["AI/ML", "Document Analysis", "GenAI"],
+      "link": "https://docexplainai.lovable.app"
+    },
+    {
+      "title": "Trueworth",
+      "description": "Track expenses, set goals, and improve financial health with a simple, no-nonsense approach.",
+      "tags": ["Finance", "Personal Tracking", "SaaS"],
+      "link": "https://trueworth.lovable.app"
+    }
+  ]
+}
