@@ -23,7 +23,7 @@ export default function Hero() {
       <WireframeCanvas />
 
       {/* Content Overlay */}
-      <div className="relative z-10 w-full max-w-7xl px-8 md:px-16 mx-auto flex flex-col justify-end h-full pb-32">
+      <div className="relative z-10 w-full max-w-7xl px-4 md:px-16 mx-auto flex flex-col justify-end h-full pb-32">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -49,10 +49,11 @@ export default function Hero() {
             ))}
           </div>
 
-          <div className="overflow-hidden pb-6 pt-2 -mb-6">
+          <div className="overflow-hidden pb-6 pt-2 -mb-6 w-full">
             <motion.h1 
               variants={textVariants} 
-              className="text-[15vw] md:text-[9vw] xl:text-[8rem] font-heading font-black leading-[0.9] tracking-tighter uppercase whitespace-nowrap"
+              className="font-heading font-black leading-[0.9] tracking-tighter uppercase whitespace-nowrap"
+              style={{ fontSize: "clamp(2rem, 9.5vw, 8rem)" }}
             >
               {resumeData.personal.title.split(" ")[0]}
               <br />
@@ -60,8 +61,8 @@ export default function Hero() {
             </motion.h1>
           </div>
 
-          <div className="overflow-hidden mt-6 max-w-xl">
-            <motion.p variants={textVariants} className="text-muted md:text-lg font-sans leading-relaxed">
+          <div className="mt-6 max-w-xl py-2">
+            <motion.p variants={textVariants} className="text-muted md:text-lg font-sans leading-[1.8]">
               {resumeData.personal.about}
             </motion.p>
           </div>
