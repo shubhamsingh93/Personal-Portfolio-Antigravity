@@ -76,6 +76,7 @@ export default function Hero() {
                 { label: "Projects", target: "projects" },
                 { label: "Blogs", target: "https://medium.com/@shubhamsinghpm", external: true },
                 { label: "Contact", target: "contact" },
+                { label: "Resume", target: "https://drive.google.com/file/d/1veOUKjRhPSraCITISxhfLe1O3f5EIlbW/view?usp=sharing", external: true },
               ].map((item, idx) => {
                 const baseClasses = "relative px-6 py-3 md:px-8 md:py-4 border border-cyan/50 rounded-full font-bold uppercase tracking-widest text-xs backdrop-blur-md overflow-hidden group cursor-pointer inline-block w-fit";
                 const content = (

@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
-import CustomCursor from "@/components/ui/CustomCursor";
 import SplashScreen from "@/components/sections/SplashScreen";
 import Hero from "@/components/sections/Hero";
 import Metrics from "@/components/sections/Metrics";
@@ -17,8 +16,6 @@ export default function Home() {
 
   return (
     <>
-      <CustomCursor />
-
       <AnimatePresence mode="wait">
         {!splashFinished && (
           <SplashScreen key="splash" onComplete={() => setSplashFinished(true)} />
