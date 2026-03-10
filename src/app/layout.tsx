@@ -14,7 +14,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Creative Technologist & PM | Product Portfolio",
+  title: "Shubham Singh — Product & AI",
   description: "A dark matter aesthetic portfolio showcasing product management, technical architecture, and creative technology.",
 };
 
