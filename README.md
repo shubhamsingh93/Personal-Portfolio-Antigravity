@@ -2,7 +2,7 @@
 
 > An interactive, high-performance portfolio built to showcase product management experience across B2B and Enterprise SaaS. Features 3D WebGL animations, cinematic scroll effects, and a responsive dark-matter design system.
 
-🔗 **Live Site**: [yourdomain.com](https://yourdomain.com) &nbsp;|&nbsp; 📧 **Contact**: your@email.com
+🔗 **Live Site**: [shubham-portfolio.co.in](https://shubham-portfolio.co.in)
 
 ---
 
@@ -168,12 +168,12 @@ sudo apt install nginx -y
 sudo nano /etc/nginx/sites-available/portfolio
 ```
 
-Paste the following (replace `yourdomain.com`):
+Paste the following:
 
 ```nginx
 server {
     listen 80;
-    server_name yourdomain.com www.yourdomain.com;
+    server_name shubham-portfolio.co.in www.shubham-portfolio.co.in;
 
     location / {
         proxy_pass         http://localhost:3000;
@@ -197,10 +197,10 @@ sudo systemctl reload nginx
 
 ```bash
 sudo apt install certbot python3-certbot-nginx -y
-sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
+sudo certbot --nginx -d shubham-portfolio.co.in -d www.shubham-portfolio.co.in
 ```
 
-Certbot will automatically configure SSL and set up auto-renewal. Your site will be live at `https://yourdomain.com`.
+Certbot will automatically configure SSL and set up auto-renewal. Your site will be live at `https://shubham-portfolio.co.in`.
 
 ---
 
